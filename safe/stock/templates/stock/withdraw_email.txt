@@ -1,0 +1,14 @@
+Dear {{name}},
+
+USDT worth of ${{amount}} has been instantly sent on your demand to your USDT account
+{{address}}
+
+Transaction batch is status
+Successful
+
+Your investment is in a safe company.
+Note: Don't hesitate to contact us with any question...
+
+Best wishes
+Thanks for trading with us
+https://www.acurainvestors.com

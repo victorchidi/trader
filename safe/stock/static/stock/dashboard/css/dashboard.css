@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Open Sans);.text-light-blue {
+  color: #a7c5ff !important;
+}
+
+.hover-bg {
+  background-color: #323757 !important;
+}
+
+.bg-light-blue {
+  background-color: #ced4da !important;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.b-invest select {
+  background: #e235e8;
+  height: 40px;
+  padding: 0 40px 0 15px;
+  font: bold 14px/40px "Acrom";
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.b-invest select:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #e235e8;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-position: center;
+  border-left: 0;
+  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.custom-card {
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-card:before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -120px;
+  z-index: 0;
+  display: block;
+  width: 262px;
+  height: 262px;
+  background: #f6f7f8;
+  border-radius: 50%;
+}
+
+.custom-card .icon-div {
+  width: 62px;
+  height: 62px;
+  position: relative;
+}
+
+.custom-card .icon-div:before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  z-index: 1;
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.custom-card .icon-div img {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.custom-card h6 {
+  font-size: 12px;
+}
+
+.custom-card .deposit-btn {
+  box-shadow: unset !important;
+}
+
+.custom-card .withdrawal-btn {
+  color: #a7c5ff;
+  font-weight: bold;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.custom-card .withdrawal-btn:hover {
+  text-decoration: unset;
+}
+
+.trading-report {
+  height: 200px;
+}
+
+.trading-report h6 {
+  font-size: 12px;
+}
+
+.trading-report h3 {
+  font-weight: 900;
+}
+
+.invoice-div .wallet-address {
+  font-size: 16px;
+  width: 100% !important;
+  border: unset;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.invoice-div .qr-div img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .invoice-div .wallet-address {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .invoice-div .wallet-address {
+    font-size: 10px;
+  }
+
+  .invoice-div .qr-div {
+    margin-bottom: 20px;
+  }
+}

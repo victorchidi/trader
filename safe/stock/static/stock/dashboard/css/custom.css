@@ -1,0 +1,18 @@
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+
+/*# sourceMappingURL=custom.css.map */
+
+#copyReferralLink {
+    cursor: pointer;
+}
+
+.success_icon {
+    width: 100px;
+}
+
+@media (max-width: 575.98px) {
+    .success_icon {
+        width: 70px;
+    }
+}
